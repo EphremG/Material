@@ -11,7 +11,7 @@ Student Name: Liisa
 Student Email: liisa@email.com
 CGPA: 4.2
 Address: Abcdef, 123
-```markdown
+```
 Now imagine simply by changing userID to 101 : http://idorexample.com/profile?userID=101
 ```markdown
 Student Name: Artur
