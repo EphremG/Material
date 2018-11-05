@@ -31,13 +31,13 @@ http://idor.example.com/changePassword?userID=100
 ```markdown
 http://idor.example.com/deleteAccount?userID=101
 ```
+This time we can imagine that IDOR vulnerability also leads to data loss and account takeover as well. 
 
+# Where does IDOR exist
 
-Syntax highlighted code block 
+# How to protect IDOR attack
 
-# Header 1
-## Header 2
-### Header 3
+###
 
 - Bulleted
 - List
@@ -50,12 +50,7 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+For more details see [IDOR](https://www.gracefulsecurity.com/idor-insecure-direct-object-reference/
+).
+[OWASP IDOR](https://www.owasp.org/index.php/Testing_for_Insecure_Direct_Object_References_(OTG-AUTHZ-004))
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/EphremG/Material/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
