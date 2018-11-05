@@ -1,8 +1,6 @@
-## Welcome to GitHub Pages
+## Insecure Direct Object references
 
-You can use the [editor on GitHub](https://github.com/EphremG/Material/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+As OWASP’s definition, “Insecure Direct Object References occur when an application provides direct access to objects based on user-supplied input. As a result of this vulnerability attackers can bypass authorization and access resources in the system directly, for example database records or files” [1](https://www.owasp.org/index.php/Testing_for_Insecure_Direct_Object_References_(OTG-AUTHZ-004))
 
 ### Markdown
 
