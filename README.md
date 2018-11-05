@@ -18,7 +18,7 @@ Student Name: Artur
 Student Email: artur@email.com
 CGPA: 4.7
 Address: Abcdef, 123
-```markdown
+```
 
 If the system displays the result without proper authorization check, then that is Insecure direct Object references. This is the simplest example. This is the most common vulnerability exist which is usually overlooked because parameter pattern is different from web application to web application. On the other hand, automated scanning tools are not smart enough to find this vulnerability. This is because security scans are not intelligent enough to know if I am legitimate user or not as long as I am not using malicious payload.  
 
@@ -27,10 +27,10 @@ The impacts of IDOR is not limited to lose of confidential information. Look at 
 
 ```markdown
 http://idor.example.com/changePassword?userID=100
-```markdown
+```
 ```markdown
 http://idor.example.com/deleteAccount?userID=101
-```markdown
+```
 
 
 Syntax highlighted code block 
