@@ -61,6 +61,7 @@ Use instance-based security features, used for specifying access control lists a
 On render time, store data values in session and on submit check the receives values with stored values.
 Check in the database that the data sent by the user is genuine. For example, if the user sends an account number, perform a JOIN operation between ACCOUNT and USER tables to check that the given account belongs to the user. In most cases, this requires a JOIN operation between multiple tables. 
 E.g of access control implementaiton using session for http://idorexample.com/profile?userID=101
+
 ```
 $userID = $_GET[userID];
 if ($_SESSION['LoggedInUserID'] != $userID){
@@ -70,7 +71,7 @@ else {
       Display the result.       
       }
 ```
-This access controls protect attacker from viewing unauthorized user's profile. Even though the attacker changed userID from URL, it he/she will be able to view another user's profile because, the LoggedInUserID should be the same as UserId in the URL.
+This access controls protect attacker from viewing other user's profile. Even though the attacker changed userID from URL, he/she will be able to view another user's profile because, the LoggedInUserID should be the same as UserId in the URL.
 
 For more details reference the following pages
 https://www.gracefulsecurity.com/idor-insecure-direct-object-reference/
