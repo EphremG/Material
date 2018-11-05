@@ -42,7 +42,8 @@ IDOR exists in many places, howeverm the most common places are
     5. API request
 
 # How to protect IDOR attack
-##Validation
+
+#Validation
 Data validation helps to confirm that the system functions is clean, correct and useful data. [src] Input validation is very vital process to protect the system against many times of attacks such as path traversal and most of injection attacks such as sql injection, cross-site scripting injection, command injection and so on.  
 ##Sanitization
 This is also one of the best method to solve sql injection issues. Even though this is a good best practice, but we cannot defend IDOR attack only by sanitizing user input. However, this best practice helps to mitigate other types of vulnerability which can be an attack vector for IDOR.
