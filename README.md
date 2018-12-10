@@ -35,11 +35,11 @@ This time we can imagine that IDOR vulnerability also leads to data loss and acc
 
 # Where does IDOR exist
 IDOR exists in many places, however the most common places are   
-    1. Get request
-    2. Login page
-    3. View data
-    4. Change password
-    5. API request
+    1. Get request  
+    2. Login page  
+    3. View data  
+    4. Change password  
+    5. API request  
 
 # How to protect IDOR attack
 
