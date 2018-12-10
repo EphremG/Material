@@ -34,7 +34,7 @@ http://idor.example.com/deleteAccount?userID=101
 This time we can imagine that IDOR vulnerability also leads to data loss and account takeover as well. 
 
 # Where does IDOR exist
-IDOR exists in many places, howeverm the most common places are 
+IDOR exists in many places, however the most common places are   
     1. Get request
     2. Login page
     3. View data
